@@ -10,6 +10,12 @@ namespace tutorial
     {
         static void Main(string[] args)
         {
+
+            
+        }
+
+        static void CheatSheet()
+        {
             int rod = 18;//ari9mos
             string ass = "i play warcraft";//protash h le3h
             bool tits = false;//true or false
@@ -40,10 +46,6 @@ namespace tutorial
                 Console.WriteLine("i can't do that " + ex);
             }
             Console.ReadLine();
-            
-
-
-
         }
     }
 }
