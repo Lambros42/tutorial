@@ -10,14 +10,25 @@ namespace tutorial
     {
         static void Main(string[] args)
         {
-
+            string password = "7854";
+            Console.WriteLine("enter password");
             
+            string enteredpassword = Console.ReadLine();
+            if (enteredpassword == password)
+            {
+                Console.WriteLine("correct");
+            }
+            else
+            {
+                Console.WriteLine("false");
+            }
+            Console.ReadLine();
         }
 
         static void CheatSheet()
         {
             int rod = 18;//ari9mos
-            string ass = "i play warcraft";//protash h le3h
+            string ass = "i play warcraft";//protash h le3h kai ari9mous sxedon
             bool tits = false;//true or false
             char livrid = 'J';//grammata h xarakthras-symvolo
 
@@ -28,7 +39,7 @@ namespace tutorial
 
 
             string red = Console.ReadLine();
-            try
+            try//gia error
             {
                 int redd = Convert.ToInt32(red);
 
