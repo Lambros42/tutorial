@@ -10,18 +10,18 @@ namespace tutorial
     {
         static void Main(string[] args)
         {
-            string password = "7854";
-            Console.WriteLine("enter password");
+            string password = "7854"; //Apothikevoume password stin mnimi
+            Console.WriteLine("enter password");//Zitame to password apo ton xristi
             
-            string enteredpassword = Console.ReadLine();
-            if (enteredpassword == password)
+            string enteredpassword = Console.ReadLine(); //Apothikeuoume to password pou mas edwse o xristis stin mnimi
+
+            while (enteredpassword != password) //loop oso o password den einai swstos
             {
-                Console.WriteLine("correct");
+                Console.WriteLine("false password entered, try again");
+                enteredpassword = Console.ReadLine();
             }
-            else
-            {
-                Console.WriteLine("false");
-            }
+            Console.WriteLine("correct");
+
             Console.ReadLine();
 
         }
