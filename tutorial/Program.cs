@@ -12,8 +12,10 @@ namespace tutorial
         {
             string password = "7854"; //Apothikevoume password stin mnimi
             Console.WriteLine("enter password");//Zitame to password apo ton xristi
-            
+
+            string notriesleft = "no tries left, you lose!";
             string enteredpassword = Console.ReadLine(); //Apothikeuoume to password pou mas edwse o xristis stin mnimi
+            int tries = 3;
 
             while (enteredpassword != password && tries != 0) //loop oso o password den einai swstos
             {
