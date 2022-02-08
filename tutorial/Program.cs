@@ -10,6 +10,11 @@ namespace tutorial
     {
         static void Main(string[] args)
         {
+
+        }
+
+        static void passwordguesser()
+        {
             string password = "7854"; //Apothikevoume password stin mnimi
             Console.WriteLine("enter password");//Zitame to password apo ton xristi
 
@@ -32,7 +37,7 @@ namespace tutorial
             {
                 Console.WriteLine(notriesleft);
             }
-            
+
 
             Console.ReadLine();
 
