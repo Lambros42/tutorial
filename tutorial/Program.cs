@@ -10,9 +10,14 @@ namespace tutorial
     {
         static void Main(string[] args)
         {
+
+        }
+
+        static void PasswordGuesser()
+        {
             string password = "7854"; //Apothikevoume password stin mnimi
             Console.WriteLine("enter password");//Zitame to password apo ton xristi
-            
+
             string enteredpassword = Console.ReadLine(); //Apothikeuoume to password pou mas edwse o xristis stin mnimi
 
             while (enteredpassword != password) //loop oso o password den einai swstos
