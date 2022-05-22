@@ -10,38 +10,22 @@ namespace tutorial
     {
         static void Main(string[] args)
         {
-            int numbertocompare = 2;
-            string shitdog = "Lamb and Ant coding";
-            bool bat = true;
-            char car = 'C';
 
-            Console.WriteLine("The man walked by the lake");
-            Console.WriteLine(shitdog);
-
-            int inputnumber = 0;
-            try
-            {
-                inputnumber = Convert.ToInt32(Console.ReadLine());
-                if (inputnumber > numbertocompare)
-                {
-                    Console.WriteLine(inputnumber + " is bigger");
-                }
-                else
-                {
-                    Console.WriteLine(inputnumber + " is smaller");
-                }
-            }
-            catch
-            {
-                Console.WriteLine("You stupid");
-            }
-
-            
-                   
-                    
-              
-            Console.ReadLine();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         static void passwordguesser()
         {
@@ -106,5 +90,34 @@ namespace tutorial
             }
             Console.ReadLine();
         }
+
+        /*
+            int numbertocompare = 2;
+            string shitdog = "Lamb and Ant coding";
+            bool bat = true;
+            char car = 'C';
+
+            Console.WriteLine("The man walked by the lake");
+            Console.WriteLine(shitdog);
+
+            int inputnumber = 0;
+            try
+            {
+                inputnumber = Convert.ToInt32(Console.ReadLine());
+                if (inputnumber > numbertocompare)
+                {
+                    Console.WriteLine(inputnumber + " is bigger");
+                }
+                else
+                {
+                    Console.WriteLine(inputnumber + " is smaller");
+                }
+            }
+            catch
+            {
+                Console.WriteLine("You stupid");
+            } 
+            Console.ReadLine();
+        */
     }
 }
